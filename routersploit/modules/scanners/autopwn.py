@@ -4,7 +4,6 @@ from routersploit import (
     print_error,
     print_success,
     print_status,
-    print_info,
     utils,
     LockedIterator
 )
@@ -61,4 +60,3 @@ class Exploit(exploits.Exploit):
                     print_error("{} {} is not vulnerable".format(name, exploit))
                 else:
                     print_status("{} {} could not be verified".format(name, exploit))
-
